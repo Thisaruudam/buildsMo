@@ -8691,3 +8691,10 @@ del {
 }
 
 /*# sourceMappingURL=style.css.map */
+@media screen and (min-width: 0px) and (max-width: 992px) {
+  #contact-details { display: block; }  /* show it on small screens */
+}
+
+@media screen and (min-width: 993px) and (max-width: 3000px) {
+  #contact-details { display: none; }   /* hide it elsewhere */
+}
